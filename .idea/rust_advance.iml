@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/guessing_game/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ownership_models/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/slices/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/enums/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rectangle/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/structures/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pattern_matching/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/restaurant/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/collections/strings/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/collections/vectors/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/collections/hashmaps/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercises/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/ownership_models/target" />
+      <excludeFolder url="file://$MODULE_DIR$/guessing_game/target" />
+      <excludeFolder url="file://$MODULE_DIR$/slices/target" />
+      <excludeFolder url="file://$MODULE_DIR$/structures/target" />
+      <excludeFolder url="file://$MODULE_DIR$/rectangle/target" />
+      <excludeFolder url="file://$MODULE_DIR$/enums/target" />
+      <excludeFolder url="file://$MODULE_DIR$/pattern_matching/target" />
+      <excludeFolder url="file://$MODULE_DIR$/restaurant/target" />
+      <excludeFolder url="file://$MODULE_DIR$/collections/vectors/target" />
+      <excludeFolder url="file://$MODULE_DIR$/collections/strings/target" />
+      <excludeFolder url="file://$MODULE_DIR$/collections/hashmaps/target" />
+      <excludeFolder url="file://$MODULE_DIR$/exercises/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="PROJECT_TEST_RUNNER" value="pytest" />
+  </component>
+</module>
