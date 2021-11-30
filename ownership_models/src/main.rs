@@ -1,15 +1,14 @@
-
 fn calculate_length(s: String) -> (String, usize) {
     let l = s.len();
-    (s,l)
+    (s, l)
 }
 
 fn take_ownership_compound_type(s: String) {
-    println!("Taken ownership of String {}",s);
+    println!("Taken ownership of String {}", s);
 }
 
 fn take_ownership_scalar_type(a: i32) {
-    println!("Taken ownership of i32 {}",a);
+    println!("Taken ownership of i32 {}", a);
 }
 
 fn calculate_length_with_ref(s: &String) -> usize {
@@ -22,7 +21,7 @@ fn change_word(s: &mut String) {
 
 fn main() {
     let mut s = String::from("Hello");
-    s+=" world";
+    s += " world";
     s.push_str("___o");
     // println!("{}",s);
 
@@ -51,10 +50,9 @@ fn main() {
     // take_ownership_compound_type(s);
     // println!("is {} still accessible yes",s); // won't compile
 
-
     //TRANSFERRING OWNERSHIP VIA RETURN TUPLE
     let ss = String::from("Helllo");
-    let (ss,sl) = calculate_length(ss);
+    let (ss, sl) = calculate_length(ss);
     // println!("{}",ss);
 
     //BORROWING
@@ -67,12 +65,4 @@ fn main() {
     let mut sa = String::from("Apple");
     change_word(&mut sa);
     // println!("{:?}",sa);
-
-
 }
-
-
-
-
-
-
